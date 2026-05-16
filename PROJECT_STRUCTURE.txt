@@ -1,0 +1,45 @@
+.
+|-- DEPLOYED_INFO.md
+|-- DEPLOYMENT.md
+|-- Dockerfile
+|-- PROJECT_STRUCTURE.txt
+|-- PROJECT_SUMMARY.md
+|-- PUSH_TO_GITHUB.md
+|-- QUICK_START.md
+|-- README.md
+|-- SETUP_GUIDE.md
+|-- backend
+|   |-- Dockerfile.backend
+|   |-- config
+|   |   |-- database-sqlite.js
+|   |   `-- database.js
+|   |-- controllers
+|   |   |-- authController.js
+|   |   `-- transactionController.js
+|   |-- middleware
+|   |   |-- auth.js
+|   |   `-- validator.js
+|   |-- models
+|   |   |-- Transaction.js
+|   |   `-- User.js
+|   |-- package-lock.json
+|   |-- package.json
+|   |-- routes
+|   |   |-- auth.js
+|   |   `-- transactions.js
+|   |-- server.js
+|   `-- utils
+|       `-- migrate.js
+|-- docker-compose.yml
+`-- frontend
+    |-- Dockerfile.frontend
+    |-- css
+    |-- index.html
+    |-- js
+    |   |-- api.js
+    |   `-- app.js
+    |-- login.html
+    |-- nginx.conf
+    `-- register.html
+
+11 directories, 32 files
